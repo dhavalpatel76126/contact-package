@@ -1,0 +1,19 @@
+{
+    "name": "cc/contact",
+    "description": "This will send mail to admin and save to database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "john doe",
+            "email": "johndoe@yopmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bitfumes\\Contact\\": "src/"
+        }
+    }
+}
